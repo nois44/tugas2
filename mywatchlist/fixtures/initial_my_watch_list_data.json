@@ -1,0 +1,112 @@
+[
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 1,
+        "fields": {
+            "watched": "Telah ditonton",
+            "title": "Avengers: Endgame",
+            "rating": 4.50,
+            "release_date": "2019-04-24",
+            "review": "Menurut Jeffrey Harris, Avengers: Endgame bukan hanya puncak dari sebelas tahun terakhir dari kisah sinematik Marvel Studios, tetapi juga perayaan dari semua yang disukai orang tentang karakter-karakter ini."
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 2,
+        "fields": {
+            "watched": "Belum ditonton",
+            "title": "Fall",
+            "rating": 3.95,
+            "release_date": "2022-08-16",
+            "review": "Menurut seorang wanita, Kat Hughes, Sudut kamera yang memukau dan aksi akrobat yang luar biasa akan membuat penonton terpaku di kursi mereka. Mimpi buruk bertahan hidup yang diliputi kecemasan, mencabik-cabik saraf, dan memicu vertigo, Fall diatur untuk menakuti mereka yang memiliki dan tanpa kepala untuk ketinggian."
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 3,
+        "fields": {
+            "watched": "Belum ditonton",
+            "title": "The Tomorrow War",
+            "rating": 3.80,
+            "release_date": "2021-07-02",
+            "review": "Menurut Daniel Howat, The Tomorrow War adalah film aksi yang berguna yang pasti bisa menggaruk gatal yang dimiliki banyak orang saat ini untuk blockbuster musim panas raksasa, tetapi naskah yang lemah membuat film tetap kokoh di wilayah film biasa-biasa saja."
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 4,
+        "fields": {
+            "watched": "Telah ditonton",
+            "title": "Ready Player One",
+            "rating": 3.85,
+            "release_date": "2018-03-29",
+            "review": "Menurut salah satu kritikus film bernama Allen Almachar, Pengembangan karakter dan pertaruhan emosional mungkin kurang matang, tetapi sangat menyenangkan untuk menonton pembuat film silsilah Spielberg yang bebas dan bersenang-senang.'"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 5,
+        "fields": {
+            "watched": "Telah ditonton",
+            "title": "Inception",
+            "rating": 4.55,
+            "release_date": "2010-07-16",
+            "review": "Opini dari Siddhant Adlakha, Film aksi refleksi diri berlapis-lapis yang menyala di semua silinder, memanipulasi waktu melalui pengeditan yang cermat untuk menghadirkan pengalaman sinematik yang memukau."
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 6,
+        "fields": {
+            "watched": "Telah ditonton",
+            "title": "Everything Everywhere All at Once",
+            "rating": 4.75,
+            "release_date": "2022-04-08",
+            "review": "https://www.tokopedia.com/tokobaruofficial/apple-airpods-3-mme73id-a-garansi-resmi-ibox"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 7,
+        "fields": {
+            "watched": "Telah ditonton",
+            "title": "John Wick: Chapter 3 - Parabellum",
+            "rating": 4.32,
+            "release_date": "2019-05-17",
+            "review": "https://www.tokopedia.com/tokobaruofficial/apple-airpods-3-mme73id-a-garansi-resmi-ibox"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 8,
+        "fields": {
+            "watched": "Telah ditonton",
+            "title": "Crazy Rich Asians",
+            "rating": 4.16,
+            "release_date": "2018-08-15",
+            "review": "https://www.tokopedia.com/tokobaruofficial/apple-airpods-3-mme73id-a-garansi-resmi-ibox"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 9,
+        "fields": {
+            "watched": "Belum ditonton",
+            "title": "Elvis",
+            "rating": 3.9,
+            "release_date": "2022-06-24",
+            "review": "https://www.tokopedia.com/tokobaruofficial/apple-airpods-3-mme73id-a-garansi-resmi-ibox"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlist",
+        "pk": 10,
+        "fields": {
+            "watched": "Belum ditonton",
+            "title": "The Northman",
+            "rating": 3.75,
+            "release_date": "2022-04-22",
+            "review": "https://www.tokopedia.com/tokobaruofficial/apple-airpods-3-mme73id-a-garansi-resmi-ibox"
+        }
+    }
+]
