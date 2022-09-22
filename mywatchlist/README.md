@@ -6,7 +6,11 @@ Link menuju Heroku tugas3:
     https://mywatchlist-tugas3.herokuapp.com/mywatchlist/
 
 1. Jelaskan Perbedaan antara JSON, XML, dan HTML!
-    => 
+    => JSON: JSON atau JavaScript Object Notation Berbeda dengan XML (extensive markup language) dan format lainnya yang memiliki fungsi serupa, JSON memiliki struktur data yang sederhana dan mudah dipahami. Itulah mengapa JSON sering digunakan pada API. JSON sendiri terdiri dari dua struktur, yaitu Kumpulan value yang saling berpasangan. Dalam JSON, contohnya adalah object dan daftar value yang berurutan, seperti array.
+    
+    =>XML: XML merupakan markup language yang digunakan untuk menyederhanakan proses penyimpanan dan pengiriman data antarserver. File XML digunakan untuk membuat format informasi umum serta menjadi sarana untuk membagikan format dan data yang digunakan di World Wide Web, intranet, dan di platform lain yang menggunakan teks ASCII standar. XML sendiri sering dianggap mirip dengan HTML. Baik XML dan HTML mengandung simbol-simbol markup yang berfungsi untuk mendeskripsikan konten sebuah halaman atau file.
+    
+    =>HTML: HTML dapat didefinisikan suatu bahasa markup. Dengan HTML kita dapat membuat halaman statis kita sendiri. HTML digunakan untuk menampilkan data bukan untuk mengangkut data. HTML adalah kombinasi dari Hypertext dan bahasa Markup. Hypertext mendefinisikan link antara halaman web.
 
 2. Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform?
     =>
