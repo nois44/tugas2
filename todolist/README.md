@@ -1,7 +1,7 @@
 Link Heroku
 https://tugas3watchlist.herokuapp.com/todolist/
 
-**Kegunaan `{% csrf_token %}` pada elemen '<form>'**
+**Kegunaan `{% csrf_token %}` pada elemen <form>**
   CSRF Token bersifat rahasia dan ditangani dengan cara yang aman sepanjang life cicyle program. Biasanya tindakan yang efektif adalah mengirimkan token ke klien secara tersembunyi pada bagian Form HTML yang dikirimkan menggunakan metode POST. Token kemudian akan sisipkan sebagai parameter permintaan saat Form HTML dikirmkan.
 Untuk keamanan tambahan, bagian yang berisi token CSRF harus ditempatkan sedini mungkin dalam HTML, idealnya sebelum bagian input dan lokasi mana pun di mana data yang dapat dikontrol pengguna disematkan di dalam HTML.
 Sehingga akan mengurangi berbagai teknik di mana penyerang dapat menggunakan data yang dibuat untuk memanipulasi dokumen HTML dan menangkap bagian dari isinya.
