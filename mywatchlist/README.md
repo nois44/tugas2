@@ -3,8 +3,8 @@ Kelas   : PBP - B
 NPM     : 2106752312
 
 Link menuju Heroku tugas3:
-    https://mywatchlist-tugas3.herokuapp.com/mywatchlist/
-
+    https://tugas3watchlist.herokuapp.com/mywatchlist
+    
 1. Jelaskan Perbedaan antara JSON, XML, dan HTML!
     => 
 

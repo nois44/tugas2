@@ -1,0 +1,16 @@
+{% extends 'styling.html' %}
+{% block content %}
+<div class="header">
+    <h4>Login di sini</h4>
+</div>
+
+<div class="card-body">
+    <form method="POST">
+        {% csrf_token %}
+        <input style="margin-bottom:15px;" type="text" name="username" placeholder="Username...">
+        <input style="margin-bottom:30px;" type="password" name="password" placeholder="Password...">
+        <input class="button" type="submit" value="Login">
+    </form>
+    <p>Tidak mempunyai akun? <a href="{% url 'signup' %}">Registrasi di sini!</a> </p>
+</div>
+{% endblock %}

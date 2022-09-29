@@ -1,0 +1,16 @@
+{% extends 'styling.html' %}
+{% block content %}
+<html lang="id">
+
+<div class="header">
+    <a href="{% url 'tasklist' %}">&#8592; Kembali</a>
+</div>
+
+<div class="card-body-detail">
+  <h4>Title: {{task.title|title}}</h4>
+  <h4>Description: {{task.description}}</h4>
+  <h4>Status: {{task.is_finished}}</h4>
+  <h5>Dibuat pada: {{task.date|timesince}} lalu</h5>
+  <h4><a class="button" href="{% url 'edit' task.title %}">Edit</a> <a style="background-color:red; border:none;" class="button" href="{% url 'delete' task.title %}">Delete</a></h4>
+</div>
+{% endblock %}

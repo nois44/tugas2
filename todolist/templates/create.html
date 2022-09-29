@@ -1,0 +1,14 @@
+{% extends 'styling.html' %}
+{% block content %}
+<div class="header">
+  <a href="{% url 'tasklist' %}">&#8592; Kembali</a>
+</div>
+
+<div class="card-body">
+  <form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input class="button" type="submit" value="Create">
+  </form>
+</div>
+{% endblock %}

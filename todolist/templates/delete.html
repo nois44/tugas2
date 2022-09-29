@@ -1,0 +1,14 @@
+{% extends 'styling.html' %}
+{% block content %}
+<div class="header">
+    <a href="{% url 'detail' task.title %}">&#8592; Kembali</a>
+</div>
+
+<div class="card-body">
+    <p>Apakah anda yakin untuk menghapus task <strong>{{task}}</strong> ?</p>
+    <form method="POST">
+        {% csrf_token %}
+        <input class="button" type="submit" value="Delete">
+    </form>
+</div>
+{% endblock %}
