@@ -1,14 +1,26 @@
-{% extends 'styling.html' %}
-{% block content %}
-<div class="header">
-    <a href="{% url 'detail' task.title %}">&#8592; Kembali</a>
-</div>
+{% extends 'styling.html' %} {% block meta %}
+<title>Delete Task</title>
+{% endblock meta %} {% block content %}
 
-<div class="card-body">
-    <p>Apakah anda yakin untuk menghapus task <strong>{{task}}</strong> ?</p>
-    <form method="POST">
-        {% csrf_token %}
-        <input class="button" type="submit" value="Delete">
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+     <div>
+      <a class="navbar-brand" href="#">Apakah Anda yakin untuk menghapus task {{form.title}}</a>
+     </div>
+      <a href="{% url 'tasklist' %}" class="btn btn-primary">Kembali</a>
+  </div>
+</nav>
+
+<div class="w-100 vh-100 d-flex justify-content-center align-items-center">
+  <div
+    class="d-flex flex-column align-items-center rounded-4 bg-light p-4 shadow-lg"
+  >
+    <h1>Delete Task</h1>
+
+    <form method="POST" action="" class="d-flex flex-column">
+      {% csrf_token %}
+      <button class="btn btn-success" type="submit" value="Delete">Delete!</button>
     </form>
+  </div>
 </div>
-{% endblock %}
+{% endblock content %}

@@ -1,10 +1,14 @@
 {% extends 'styling.html' %}
 {% block content %}
-<html lang="id">
 
-<div class="header">
-    <a href="{% url 'tasklist' %}">&#8592; Kembali</a>
-</div>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+     <div>
+      <a class="navbar-brand" href="#">{{request.user.username|title}} sedang membuat Task...</a>
+     </div>
+      <a href="{% url 'tasklist' %}" class="btn btn-primary">Kembali</a>
+  </div>
+</nav>
 
 <div class="card-body-detail">
   <h4>Title: {{task.title|title}}</h4>

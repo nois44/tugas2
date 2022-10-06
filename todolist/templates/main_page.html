@@ -1,49 +1,65 @@
 {% extends 'styling.html' %}
 {% block content %}
-<div class="header">
-    <div>
-        <h2>Hai, {{request.user.username|title}}</h2>
-        <h3>Anda memiliki <i>{{count}}</i> task yang belum selesai</h3>
+
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+       <div>
+        <a class="navbar-brand" href="#">Hello, {{request.user.username|title}}</a>
+       </div>
+       <div>
+        <h4>Anda memiliki <i>{{count}}</i> task yang belum selesai</h4>
+       </div>
+        <a href="{% url 'logout' %}" class="btn btn-danger">Logout</a>
     </div>
-    {% if request.user.is_authenticated %}
-    <a href="{% url 'logout' %}">Logout</a>
-    {% else %}
-    <a href="{% url 'login' %}">Login</a>
-    {% endif %}
-</div>
-<hr>
+</nav>
 
-<div class="search-wrapper">
-    <form method="GET" style="display: flex;">
-        <input type="search" name="search_area" value="{{search_input}}" placeholder="Cari Task...">
-    </form>
-    <tr> </tr>
-    <tr> </tr>
-    <a id="add" href="{% url 'create' %}">Tambahkan Task</a>
-</div>
-
-<table>
+<table class="table w-100 mx-auto">
     <tr>
-        <th>Title List </th>
+        <th>
+            <div class="search-wrapper d-flex justify-content-center align-items-center">
+                <form method="GET" style="display: flex;">
+                    <input type="search" name="search_area" value="{{search_input}}" placeholder="Cari Task...">
+                </form>
+            </div>
+        </th>
         <th> </th>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-    </tr>
-    {% for task in tasks %}
-    <tr>
-        <th>{{task.title}}</th>
-        <th> </th>
-        <th> </th>
-        <th><a href="{% url 'detail' task.title%}">Lihat</a></th>
-        <th> </th>
-        <th> </th>
-        <th><a href="{% url 'delete' task.title%}">Hapus</a></th>
-    </tr>
-    {% endfor %}
-
+        <th>
+            <a id="add" href="{% url 'create' %}">Tambahkan Task</a>
+        </th>
+    </tr>    
 </table>
+
+<div class="w-100 d-flex justify-content-center">
+<table class="table w-50 mx-auto table-hover align-items-center">
+    {% if count == 0 %}
+    <tr>
+        <th>Belum ada Task</th>
+    </tr>
+    {% else %}
+        <tr>
+            <thead class="table-dark">
+            <th>Title List </th>
+            <th> </th>
+            <th> </th>
+            <th> </th>
+            <th> </th>
+            <th> </th>
+            <th> </th>
+            </thead>
+        </tr>
+        {% for task in tasks %}
+        <tr>
+            <th>{{task.title}}</th>
+            <th> </th>
+            <th> </th>
+            <th><a href="{% url 'detail' task.title%}">Lihat</a></th>
+            <th> </th>
+            <th> </th>
+            <th><a href="{% url 'delete' task.title%}">Hapus</a></th>
+        </tr>
+        {% endfor %}
+    {% endif %}
+</table>
+</div>
 
 {% endblock %}
