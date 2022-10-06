@@ -24,20 +24,16 @@ Sehingga akan mengurangi berbagai teknik di mana penyerang dapat menggunakan dat
 
   
 **TUGAS 5**  
-**1. Apa perbedaan antara CSS Inline, Internal, dan Eksternal? Apa kelebihan dan kekurangan masing-masing gaya?
-**
+**1. Apa perbedaan antara CSS Inline, Internal, dan Eksternal? Apa kelebihan dan kekurangan masing-masing gaya?**
 > CSS sebaris, adalah metode penulisan gaya CSS langsung di Tag HTML yang ditentukan. Keuntungannya adalah gayanya lebih spesifik untuk komponen tertentu. Tapi, itu akan membuat baris kode lebih bertele-tele dan kurang dapat digunakan kembali.
 > CSS internal, adalah gaya CSS yang dideklarasikan di <head> elemen HTML. Dengan metode ini, pengembang dapat memaksimalkan pemanfaatan CSS seperti menggunakan CSS Selector. Namun kekurangannya adalah waktu loading halaman akan bertambah seiring dengan bertambahnya aturan styling CSS.
 > CSS eksternal, adalah cara untuk menulis gaya CSS dalam file .css khusus dan menautkannya dengan dokumen HTML. Karena kode CSS dipisahkan, dokumen HTML akan memiliki struktur yang lebih bersih dan ukuran yang lebih kecil, serta lebih dapat digunakan kembali. Namun, halaman HTML tidak akan ditampilkan dengan benar hingga CSS dimuat.
 
-**2. Jelaskan tag HTML5 yang kamu ketahui!
-**
+**2. Jelaskan tag HTML5 yang kamu ketahui!**
 Salah satu tag yang paling sering digunakan dalam HTML yang saya tahu adalah tag <div>. Ini mendefinisikan divisi dalam dokumen HTML dan biasanya digunakan sebagai wadah atau pembungkus untuk elemen HTML. Namun, sebaiknya developer tidak selalu menggunakan tag ini dalam setiap kasus, karena akan berdampak buruk pada SEO.
 
-**3. Jelaskan jenis-jenis pemilih CSS yang Anda ketahui!
-**
+**3. Jelaskan jenis-jenis pemilih CSS yang Anda ketahui!**
 Pemilih CSS yang paling banyak digunakan yang saya tahu adalah . (pemilih kelas). Ini biasanya digunakan karena CSS biasanya disuntikkan melalui atribut kelas HTML.
 
-**4. Jelaskan bagaimana Anda akan menerapkan daftar periksa di atas!
-**
+**4. Jelaskan bagaimana Anda akan menerapkan daftar periksa di atas!**
 saya akan memulai dari memilih framework yang ingin saya gunakan. Saya menggunakan Bootsrap sesuai pada lab sebelumnya. Lalu, Memperindah html _Login_ dan html yang lainnya. Setelah itu, saya mulai mengimplementasikan navbar untuk pengguna yang diautentikasi.
